@@ -1,29 +1,9 @@
-test :
+welcome :
   id : 0
   type : special
-  title : Just a test
-  body : This is a simple notification for testing purposed.
-  url : https://usebottles.com
-  date : 2021-10-16
-  recurrent : false
-  before : false
-
-test2 :
-  id : 1
-  type : info
-  title : Just a test2
-  body : This is a simple notification for testing purposed.
-  url : false
+  title : Welcome to Bottles!
+  body : If this is your first time, access the documentation by clicking on this notification.
+  url : https://docs.usebottles.com
   date : 2021-10-16
   recurrent : true
   before : false
-
-test3 :
-  id : 2
-  type : warning
-  title : Just a test3
-  body : This notification should be displayed in release before 2021.10.28
-  url : false
-  date : 2021-10-16
-  recurrent : true
-  before : 2021.10.28
