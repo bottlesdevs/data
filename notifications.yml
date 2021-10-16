@@ -6,6 +6,7 @@ test :
   url : https://usebottles.com
   date : 2021-10-16
   recurrent : false
+  before : false
 
 test2 :
   id : 1
@@ -15,3 +16,14 @@ test2 :
   url : false
   date : 2021-10-16
   recurrent : true
+  before : false
+
+test3 :
+  id : 2
+  type : info
+  title : Just a test3
+  body : This notification should be displayed in release before 2021.10.28
+  url : false
+  date : 2021-10-16
+  recurrent : true
+  before : 2021.10.28
