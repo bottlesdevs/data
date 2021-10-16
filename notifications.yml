@@ -1,15 +1,17 @@
 test :
   id : 0
+  type : info
   title : Just a test
   body : This is a simple notification for testing purposed.
-  type : info
+  url : https://usebottles.com
   date : 2021-10-16
   recurrent : false
 
 test2 :
   id : 1
+  type : info
   title : Just a test2
   body : This is a simple notification for testing purposed.
-  type : info
+  url : false
   date : 2021-10-16
   recurrent : true
