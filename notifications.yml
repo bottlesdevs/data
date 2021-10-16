@@ -1,0 +1,13 @@
+test :
+  title : Just a test
+  body : This is a simple notification for testing purposed.
+  type : info
+  date : 2021-10-16
+  recurrent : false
+
+test2 :
+  title : Just a test2
+  body : This is a simple notification for testing purposed.
+  type : info
+  date : 2021-10-16
+  recurrent : true
