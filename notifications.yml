@@ -1,6 +1,6 @@
 test :
   id : 0
-  type : info
+  type : special
   title : Just a test
   body : This is a simple notification for testing purposed.
   url : https://usebottles.com
@@ -20,7 +20,7 @@ test2 :
 
 test3 :
   id : 2
-  type : info
+  type : warning
   title : Just a test3
   body : This notification should be displayed in release before 2021.10.28
   url : false
