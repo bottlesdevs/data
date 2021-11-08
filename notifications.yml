@@ -1,3 +1,12 @@
+forums :
+  id : 1
+  type : special
+  title : Need help?
+  body : Ask your questions in the Bottles' Forums.
+  url : https://forums.usebottles.com
+  date : 2021-11-08
+  recurrent : true
+  before : false
 welcome :
   id : 0
   type : special
