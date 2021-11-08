@@ -1,6 +1,6 @@
 forums :
   id : 1
-  type : special
+  type : info
   title : Need help?
   body : Ask your questions in the Bottles' Forums.
   url : https://forums.usebottles.com
