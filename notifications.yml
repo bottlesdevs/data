@@ -1,12 +1,12 @@
-2021-11-14-3 :
-  id : 2
+2021-11-28 :
+  id : 3
   type : info
-  title : "2021.11.14-3 Release is out!"
+  title : "2021.11.28 Release is out!"
   body : Upgrade to get latest features and bugfixes.
-  url : https://usebottles.com/blog/release-2021.11.14/
-  date : 2021-11-14
+  url : https://usebottles.com/blog/release-2021.11.28/
+  date : 2021-11-28
   recurrent : true
-  before : "2021.11.14-treviso-3"
+  before : "2021.11.28"
 forums :
   id : 1
   type : info
