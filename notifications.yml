@@ -1,12 +1,12 @@
 2021-12-14 :
-  id : 4
+  id : 5
   type : info
   title : "2021.12.14 Release is out!"
   body : Upgrade to get latest features and bugfixes.
   url : https://usebottles.com/blog/release-2021.12.14/
   date : 2021-12-14
   recurrent : true
-  before : "2021.12.14-1"
+  before : "2021.12.14-2"
 forums :
   id : 1
   type : info
