@@ -9,7 +9,18 @@ Build: |
   wget https://download.microsoft.com/download/vc60pro/Update/2/W9XNT4/EN-US/VC6RedistSetup_deu.exe
   cabextract -d VC6RedistSetup_deu -q VC6RedistSetup_deu.exe
   cabextract -d vcredist -q VC6RedistSetup_deu/vcredist.exe
-  tar zcvf vcredist6.tar.gz vcredist
+  mv vcredist/atla.dll vcredist/atl.dll
+  tar zcvf vcredist6.tar.gz \
+    vcredist/atl.dll \
+    vcredist/asycfilt.dll \
+    vcredist/comcat.dll \
+    vcredist/mfc42.dll \
+    vcredist/mfc42.dll \
+    vcredist/msvcirt.dll \
+    vcredist/msvcp60.dll \
+    vcredist/msvcrt.dll \
+    vcredist/oleaut32.dll \
+    vcredist/olepro32.dll
   
 Steps:  
 
