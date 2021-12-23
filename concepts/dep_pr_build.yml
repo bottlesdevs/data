@@ -21,6 +21,8 @@ Build: |
     vcredist/msvcrt.dll \
     vcredist/oleaut32.dll \
     vcredist/olepro32.dll
+    
+Artifact: vcredist6.tar.gz
   
 Steps:  
 
