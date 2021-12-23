@@ -25,13 +25,13 @@ Build: |
 Steps:  
 
 - action: archive_extract
-  file_name: {{ ARTIFACT_NAME }}
-  url: {{ ARTIFACT_URL }}
-  file_checksum: {{ ARTIFACT_MD5 }}
+  file_name: #ARTIFACT_NAME
+  url: #ARTIFACT_URL#
+  file_checksum: #ARTIFACT_MD5#
 
 - action: copy_file
   file_name: '*'
-  url: temp/{{ ARTIFACT_NAME }}
+  url: temp/#ARTIFACT_NAME#
   dest: windows/system32
 
 - action: override_dll
