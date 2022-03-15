@@ -3,7 +3,7 @@
   type : info
   title : "2022.3.14 Release is out!"
   body : Upgrade to get latest features and bugfixes.
-  url : https://usebottles.com/blog/release.2022.3.214/
+  url : https://usebottles.com/blog/release.2022.3.14/
   date : 2022-03-14
   recurrent : true
   before : "2022.3.14-trento-1"
