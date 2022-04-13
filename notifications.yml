@@ -1,12 +1,12 @@
-2022-3-14-1 :
-  id : 9
+2022-4-14 :
+  id : 10
   type : info
-  title : "2022.3.14 Release is out!"
+  title : "2022.4.14 Release is out!"
   body : Upgrade to get latest features and bugfixes.
-  url : https://usebottles.com/blog/release.2022.3.14/
-  date : 2022-03-14
+  url : https://usebottles.com/blog/release.2022.4.14/
+  date : 2022-04-14
   recurrent : true
-  before : "2022.3.14-trento-1"
+  before : "2022.4.14-trento"
 forums :
   id : 1
   type : info
